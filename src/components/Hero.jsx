@@ -6,7 +6,7 @@ export default function Hero({ onOpenQuiz, onShopClick, onSelectProduct, product
 
   return (
     <section className="relative overflow-hidden bg-cream-50">
-      
+
       {/* MOBILE HERO VIEW (Background Overlay Style) */}
       <div className="relative block lg:hidden min-h-[560px] flex items-end justify-center pb-10 px-5 text-center overflow-hidden">
         {/* Fullscreen Background Image */}
@@ -15,7 +15,7 @@ export default function Hero({ onOpenQuiz, onShopClick, onSelectProduct, product
           alt="Lumière Botanics Melanin Skin Care"
           className="absolute inset-0 w-full h-full object-cover object-top"
         />
-        
+
         {/* Dark Luxury Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-botanic-950 via-botanic-950/80 to-botanic-950/30" />
 
@@ -50,7 +50,7 @@ export default function Hero({ onOpenQuiz, onShopClick, onSelectProduct, product
               className="w-full py-3 bg-botanic-900/90 hover:bg-botanic-900 text-cream-50 border border-gold-500/40 rounded-xl font-bold text-xs uppercase tracking-wider transition flex items-center justify-center gap-2 backdrop-blur-md"
             >
               <Sparkles className="w-3.5 h-3.5 text-gold-400" />
-              <span>Ask Titi AI Assistant</span>
+              <span>Contact Us</span>
             </button>
           </div>
 
